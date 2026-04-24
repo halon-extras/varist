@@ -1,0 +1,107 @@
+function varist_request($file, $endpoint, $options) 
+{
+	$flat = $options["flat"] ?? false;
+	$pw = $options["pw"] ?? none;
+	$address = $options["address"] ?? "127.0.0.1";
+	$port = $options["port"] ?? 4660;
+	$timeout = $options["timeout"] ?? 5;
+	$name = $options["filename"] ?? none;
+	
+	if ($name == none)
+	{
+		$path = $file->getPath();
+		if ($path !== none)
+		{
+			$parts = str_split($path, "/");
+			$name = $parts[length($parts) - 1];
+		}
+		else
+		{
+			$name = "unknown";
+		}
+	}
+
+	$boundary = uuid();
+	$preamble = array_join([
+        "--".$boundary,
+        "Content-Disposition: form-data; name=\"file\"; filename=\"".$name."\"",
+        "Content-Type: application/octet-stream",
+		], "\r\n")."\r\n\r\n";
+	$postamble = "\r\n--".$boundary."--\r\n";
+	$data = [$preamble, $file, $postamble];
+	$url = $address.":".$port."/".$endpoint."?pw=$1&flat=$2";
+
+	return http($url, [
+        "extended_result" => true,
+        "headers" => ["Content-type: multipart/form-data; boundary=".$boundary],
+        "timeout"=> $timeout,
+		], [$pw, $flat],
+		function ($size) closure ($data) {
+			while (length($data)) {
+                if (is_string($data[0])) 
+                {
+					$x = $data[0][0:$size];
+					$data[0] = $data[0][$size:];
+				} 
+                else 
+                {
+                    $x = $data[0]->read($size);
+				}
+				if ($x !== "") 
+                {
+					return $x;
+				}
+				$data = $data[1:];
+			}
+			return "";
+		});
+}
+
+function varist_av($file, $options = []) 
+{
+	$response = varist_request($file, "uploadFile", $options);
+	$returndata = [
+        "result" => none,
+        "detections" => none,
+        "error" => $response["message"] ?? "unknown error",
+    ];
+	if ($response["status"] === 200)
+    {
+		$content = json_decode($response["content"]);
+		if ($content !== none)
+        {
+			$returndata["result"] = $content["Result"] ?? none;
+			$returndata["detections"] = $content["Detections"] ?? none;
+			$returndata["error"] = none;
+		} 
+	}
+	return $returndata;
+}
+
+function varist_hde($file, $options = []) 
+{
+	$response = varist_request($file, "uploadAnalyze", $options);
+	$returndata = [
+        "report" => none,
+        "error" => $response["message"] ?? "unknown error",
+    ];
+	if ($response["status"] === 200) 
+    {
+		$returndata["report"] = json_decode($response["content"]);
+		$returndata["error"] = none;
+	} 
+	return $returndata;
+}
+
+function varist_hde_risk_level($rating, $mediumThreshold = 40, $highThreshold = 75)
+{
+	if ($rating === 0) 
+        return "clean";
+	if ($rating === 100) 
+        return "malicious";
+	if ($rating < $mediumThreshold) 
+        return "low";
+	if ($rating < $highThreshold) 
+        return "medium";
+	return "high";
+}

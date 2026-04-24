@@ -1,0 +1,16 @@
+FROM ubuntu:24.04
+
+ARG LICENSE_KEY
+
+WORKDIR /opt/halon/scanserver
+
+ADD scanserver*.tgz /tmp/
+
+RUN cp -a /tmp/scanserver*/. . && \
+    rm -rf /tmp/scanserver*
+
+RUN cp config.ini.default config.ini
+
+RUN sed -i "s/^LicenseKey=.*/LicenseKey=$LICENSE_KEY/" config.ini
+
+CMD ["./scanserver"]

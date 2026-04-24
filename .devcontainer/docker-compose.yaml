@@ -1,0 +1,44 @@
+version: "3.8"
+services:
+  varist:
+    tty: true
+    platform: linux/amd64
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      args:
+        HALON_REPO_USER: ${HALON_REPO_USER}
+        HALON_REPO_PASS: ${HALON_REPO_PASS}
+      platforms:
+        - linux/amd64
+    volumes:
+      - ../:/workspace
+      - ./smtpd/dist:/etc/halon
+      - certs:/etc/ssl/certs
+
+  hybrid-analyzer:
+    platform: linux/amd64
+    build:
+      context: ../
+      dockerfile: .devcontainer/Dockerfile.hde
+      args:
+        LICENSE_KEY: ${HALON_VARIST_LICENSE_KEY_HDE}
+    volumes:
+      - certs:/etc/ssl/certs:ro
+    ports:
+      - "4660:4660"
+
+  scanserver:
+    platform: linux/amd64
+    build:
+      context: ../
+      dockerfile: .devcontainer/Dockerfile.av
+      args:
+        LICENSE_KEY: ${HALON_VARIST_LICENSE_KEY_AV}
+    volumes:
+      - certs:/etc/ssl/certs:ro
+    ports:
+      - "4661:4660"
+
+volumes:
+  certs:

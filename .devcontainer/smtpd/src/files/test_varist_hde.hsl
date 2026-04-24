@@ -1,0 +1,9 @@
+import { varist_hde } from "varist";
+
+$file = File("file://.devcontainer/smtpd/sample_data/spam_stuff.eml");
+$res = varist_hde($file, [
+    "address" => "http://hybrid-analyzer",
+    "port" => 4660,
+]);
+
+echo $res;

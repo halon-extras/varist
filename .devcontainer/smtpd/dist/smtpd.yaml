@@ -1,0 +1,6 @@
+environment:
+  uuid:
+    version: 4
+scripting:
+  rootpath: /workspace
+version: '6.5'

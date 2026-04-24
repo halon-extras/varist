@@ -1,0 +1,260 @@
+Delivered-To: mattiasrademar@gmail.com
+Received: by 2002:a05:6358:584b:b0:1bc:72ce:8152 with SMTP id d11csp1557858rwf;
+        Thu, 3 Oct 2024 10:37:04 -0700 (PDT)
+X-Forwarded-Encrypted: i=2; AJvYcCXyzH96Tyuose7/1KCI7ZKVpbwZjX08TB6zrb6TOe+74K10oVnyW1wuuMYtEgZmmhEkgBNwAoTRHNrafi3OmQ==@gmail.com
+X-Google-Smtp-Source: AGHT+IHJftjsAsj0vvwivv7BrgchsnOisfcOV8/Za99XCYY0elp+QewKh4jCRiTZwAkrKqO+Mf58
+X-Received: by 2002:a05:6870:b50b:b0:25e:de4:9621 with SMTP id 586e51a60fabf-287c1e18f6emr174182fac.24.1727977024691;
+        Thu, 03 Oct 2024 10:37:04 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1727977024; cv=none;
+        d=google.com; s=arc-20240605;
+        b=h099D1xmA8zfImiaxRUjT1fYPjqjx9PyatuSmewyWYhQIXz3FOK6O9/MWi6YHcSu/6
+         YbblB1A8Lg8MvtlakgJ72kXTMk6vOXe97N1+0GLlehv5QX0XwBbrYao0DQ49k9mAlpMO
+         1+zLBuc/0GUel5l4o1n3K3m08C6On2ikYKCJuBgWGZz7oFSyQXnMydX//7qjIjtjQJgo
+         cSTY9LCgbjdWvYgRwEGG0x1eerpxSzGbZigqPMnABXqtw7UnzvPZq4Vqp6Em2y2nKF/C
+         R5IWiwZXTR6DgFRg570grq5wkyO9pMzFCgL8PfXWJDnLr5ZpyTCDyeZqjOTOGKTiIEg9
+         wJ+A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=sender:date:message-id:envelope-to:precedence:mime-version:to:from
+         :subject:delivered-to;
+        bh=qvbx1TskaUJYstq5+acOsygcqGdus4RUSWQY7ZXBofo=;
+        fh=u9/81reoKE0QcU7qQjPAZyrA2mtIqpDhO4c3YIdDCJ4=;
+        b=WK/zAFJsRTB5Jd4H5fqIDZZPMaOXFkEWzPd5BirBkYhP6XRq7BSnELNo8s8TVPWcQ1
+         UI1xM0OCZT1h/Hy45SSSMPkRachllx15W8KbSPVWXs6AUIzjLc4sEAaZ80Mmaydutcgh
+         P7PqmubsPCIj6e+ibeHtz/a6lqF+tQygvI+62G34k0vco88PkA5naHPbDrD72PT6kgGA
+         mblD4hyn3qw3G0/ayW8gx9z5ueiA8G8PHVRQh0m+9tei4HboaAxjqblFxEO8l9nX3MR8
+         m9M0m+g2QLXjSowlOm0h+K7xDTdNDCzUF3Cw8mYFQffFETJQ0f3Yg4voaEJ2/wKNEoZE
+         YZXg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of return@absr.skgcuhpo.trumni.guardenaried.uk.com designates 192.3.55.25 as permitted sender) smtp.mailfrom=Return@absr.skgcuhpo.trumni.guardenaried.uk.com
+Return-Path: <Return@absr.skgcuhpo.trumni.guardenaried.uk.com>
+Received: from wetterial.news (wetterial.news. [192.3.55.25])
+        by mx.google.com with ESMTPS id 586e51a60fabf-287abb56990si739330fac.156.2024.10.03.10.37.04
+        for <mattiasrademar@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 03 Oct 2024 10:37:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of return@absr.skgcuhpo.trumni.guardenaried.uk.com designates 192.3.55.25 as permitted sender) client-ip=192.3.55.25;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of return@absr.skgcuhpo.trumni.guardenaried.uk.com designates 192.3.55.25 as permitted sender) smtp.mailfrom=Return@absr.skgcuhpo.trumni.guardenaried.uk.com
+Delivered-To: mailto:me@outlook.com
+Subject: 𝗬𝗼𝘂 𝗿𝗲𝗰𝗲𝗶𝘃𝗲𝗱 𝗮 𝗱𝗶𝗿𝗲𝗰𝘁 𝗱𝗲𝗽𝗼𝘀𝗶𝘁𝗲𝗱 💲1686653.00_____qDu8
+From: "'💲CashApp💲'" <msasa.ajAO1ZwKM2F.lVnhfOYjHPWVMNhmmg@wjqujj.tzvhnilrgetddyjg.us>
+To: mailto:me@outlook.com
+MIME-Version: 1.0
+Precedence: bulk
+Envelope-To: <mattiasrademar@gmail.com>
+X-Originating-IP: wetterial.news
+X-Original-Sender: <mattiasrademar@gmail.com>
+X-Google-Sender-Delegation: mattiasrademar@gmail.com Trusted Sender
+Message-Id: <bxGjbES-u7YBzbE-LT@mail.outlook.com>
+Content-Type: text/html; charset="UTF-8"
+Date: Thu, 03 Oct 2024 13:37:04 -0400(EST)
+Sender: gmakcpbsioixdml
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title></title>
+<style type="text/css">
+apleLinks b {color:eWltZXNtYWQwOEBnbWFpbC5jb20= !imprtant; txt-decration:nne !imprtant;}
+ReadMsgBody {width:100%;}
+ExternalClass {width:100%;}
+ExternalClass * {line-height:100%;}
+html, div, p, a, li, td, * { -webkit-text-size-adjust:none; }
+table {border-collapse: collapse;}
+table td {border-collapse:collapse;}
+appleLinks a {color:#626262 !important; text-decoration:none !important;}
+
+@media screen and (max-width: 650px) {
+mainsetwidth{width:100% !important; height:auto !important;}
+setWidth100 {width:100% !important; height:auto !important;}
+
+
+}
+
+</style>
+</head>
+<div style="width:100%; padding-top:50px; padding-bottom:50px; 
+background-color:#c6ecc6;">
+
+
+
+<body style="padding:0px; margin:0px;">
+<div align="center">
+<table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" style="border:solid 3px #E7E9EB; max-width:640px; ">
+<tr>
+<td align="center" valign="top">    
+<table width="600" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" class="mainsetwidth">
+<tr>
+<td align="left" valign="top">
+<table width="600" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" class="setWidth100">
+<tr>
+<td align="left" valign="top">
+<p align="center"><a href="https://t.co/Jx8c0seh6d">
+<b><font size="7" face="Gloucester MT Extra Condensed" color="#009900">BonusHunter</font></b>
+</a>
+</td> 
+</tr>
+
+<tr>
+<td align="" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:18px; line-height:22px; color:#000000; padding-bottom: 20px; padding-top: 20px;"><br>
+<font color="#FF0000">Congratulations mattiasrademar!</font></td>
+</tr>
+<tr>
+<td align="" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:18px; line-height:22px; color:#000000; padding-bottom: 20px;">
+A balance of <b>$1000.00</b> is available for your <b> Account</b>
+</td>
+</tr>  
+
+<tr>
+<td align="" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:18px; line-height:22px; color:#000000; padding-bottom: 20px;">
+
+This transaction may only appear on your account after validate your info.</td>
+</tr>
+
+
+
+<body>
+
+ <table align="center" class="primary" border="0" cellpadding="0" cellspacing="0" width="95%">
+ <tbody>
+ <tr>
+ <td valign="top" width="100%">
+
+ <table border="0" cellpadding="0" cellspacing="0" width="100%">
+ <tbody>
+ <tr>
+ <td align="center" height="22" style="font-family:Trebuchet MS, Geneva, sans-serif; font-size:12px; text-align:center; color:#319da4; padding-bottom:10px;" width="100%"><br />
+  </td>
+ </tr>
+ </tbody>
+ </table>
+
+ <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; background-color:#eaf4fa; border:1px solid #001F57; margin-top:0; margin-bottom:0px;">
+ <tbody>
+ <tr>
+ <td align="left" class="left-section" width="60%">
+ <h1 class="primary-headline" style="font-size:22px; line-height:28px; font-family:sans-serif; color:#000; margin-top:25px; margin-right:25px; margin-left:25px; margin-bottom:10px;">
+Thu,03 Oct-2024  </h1>
+ <p class="subheadline" style="font-family:arial, sans-serif; color:#444; text-decoration:none; font-size:14px; font-weight:400; line-height:20px; display:inline-block; margin-top:0; margin-bottom:10px; margin-left:25px;">
+  Funding For: <span style="font-weight:400; border-bottom:1px solid grey;">
+  mattiasrademar</span>
+</p>
+ 
+
+ <p class="subheadline" style="font-family:arial, sans-serif; color:#444; text-decoration:none; font-size:14px; font-weight:400; line-height:20px; display:inline-block; margin-top:0; margin-bottom:10px; margin-left:25px;">
+  Email: <span style="font-weight:400; border-bottom:1px solid grey;">
+  mattiasrademar@gmail.com</span>
+</p>
+ 
+
+ <p class="subheadline" style="font-family:arial, sans-serif; color:#444; text-decoration:none; font-size:14px; font-weight:bold; line-height:20px; display:inline-block; margin-top:0; margin-bottom:10px; margin-left:25px;">
+  Balance Amount: <span style="color:#00A83B; font-weight:bold; border-bottom:1px solid grey;">
+  $1000.00</span></p>
+ 
+
+ <p class="subheadline subhead-end" style="font-family:arial, sans-serif; color:#003543; text-decoration:none; font-size:13px; line-height:18px; display:inline-block; margin-top:5px; margin-bottom:35px; margin-right:35px; margin-left:25px;"> </p>
+ </td>
+ <td align="center" class="right-section" width="40%">
+ <h3 class="box-text" style="font-family:arial, sans-serif; font-weight:lighter; font-size:16px; line-height:22px; color:#000; margin-top:0px; margin-bottom:0px; margin-right:0;">
+  Payout:</h3>
+ <h3 class="headline" style="font-family:arial, sans-serif; font-weight:lighter; margin-top:0px; margin-bottom:5px;">
+ <span class="chosen-amount" style="display:block; font-size:45px; line-height:45px; font-weight:bold; padding:0; margin:0; margin-bottom:10px; margin-right:0;">
+  $1000.000</span>
+ <a target="_blank" class="main-button" href="https://t.co/Jx8c0seh6d" style="font-family:arial, sans-serif; font-weight:bold; color:white; background:#00A83B; border:1px solid #00a8cf; font-size:20px; text-decoration:none; width:180px; height:50px; line-height:50px; margin-top:0px; margin-right:0; margin-bottom:20px; display:block;">
+  Confirm Here</a>
+ </h3>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+
+<table width="100%" height="40" border="0" cellspacing="0" cellpadding="0" style="border:1px solid grey; border-collapse:collapse; background-color:#fff; height:50px; font-size:14px; font-family:arial, sans-serif; margin-top:0; margin-bottom:20px;">
+ <tbody>
+ <tr>
+ <td class="supporting_points" align="center" width="213">Memo <span style="border-bottom:1px solid grey; margin-left:20px; display:inline-block; width:140px;"><i>
+  Payout</i></span></td>
+ <td class="supporting_points" align="center" width="213">Signature <span style="border-bottom:1px solid grey; margin-left:20px; display:inline-block; width:140px;"><i>
+  Ldom</i></span></td>
+ </tr>
+ </tbody>
+ </table>
+
+ <table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse;" width="100%">
+ <tbody>
+ <tr>
+ <td align="center" width="100%">
+ 
+ </td>
+ </tr>
+ </tbody>
+ </table>
+
+
+<tr>
+<td align="" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:18px; line-height:22px; color:#000000; padding-bottom: 20px;">
+
+ <font color="#FF0000">Note:</font> No paid involvement is required to receive 
+  this reward.</td>
+</tr>
+ <tr>
+ <td colspan="2" style="font-size:10px; color: #000;"><br><br>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+      		<br />
+		<br />
+</body>
+</html>
+</html>
+
+</body></html>
+<html>
+<body>
+	<center>
+		<a href="https://t.co/Jx8c0seh6d" >
+		</a>
+		<br />
+		<a href="https://t.co/Jx8c0seh6d" >
+		</a>
+		<br />
+		<a href="https://t.co/Jx8c0seh6d" >
+		</a>
+		<br />
+		<br>
+
+
+<a href="https://t.co/dsCLRCHT6a">Click here for unsub<br><br>
+  </td>
+<br />
+    This offer is brought to you by Amanda Buchanan To be removed from our list simply <a href="https://t.co/nmRhosqC54" >click here </a> or write to us at :
+Amanda Buchanan , 8973 Corona ,Court Chapel Hill,NC,27516
+
+
+    <br />
+		<img src="https://tinyurl.com/48kncyex/redirect.html?syw=8x166991b3a132f2.j20l01n0ubs-3006dop.46u5i3k.OUZmBroDLyMW4wdWJzLTMwMDZkb3A0e2MvS">	
+
+	</center>
+</body>
+</html>
+<title>2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 
+2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa 
+m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b 
+usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 
+2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa 
+m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b 
+usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 
+2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa 
+m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b 
+usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 
+2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa 
+m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b 
+usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 
+2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa 
+m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b 
+usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 
+2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa 
+m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b usfvv27470zhf1yx7ww46doj80uo 2ecs4vt8xhs9yh2zxn0qhmbdeb9qa m46oproaa9xgy4ml2cjk0b 
+usfvv27470zhf1yx7ww46doj80uo</title>

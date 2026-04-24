@@ -1,0 +1,4 @@
+CMakeLists.txt linguist-vendored
+.devcontainer/Dockerfile linguist-vendored
+.devcontainer/setup.sh linguist-vendored
+.devcontainer/smtpd/sample_data/**/* linguist-vendored

@@ -1,0 +1,22 @@
+scripting:
+  files:
+  - id: varist
+    path: varist.hsl
+  - id: test_file.txt
+    path: .devcontainer/smtpd/sample_data/spam_stuff.eml
+  - data: |-
+      import { varist_hde, varist_av } from "varist";
+
+
+      // $file = File("file://.devcontainer/smtpd/sample_data/test_file.txt");
+      $file = File("file://.devcontainer/smtpd/sample_data/spam_stuff.eml");
+      $res = varist_av($file, [
+          "address" => "http://scanserver",
+          "port" => 4661,
+      ]);
+
+      echo $res;
+    id: test_varist_hde.hsl
+servers: []
+transportgroups: []
+version: '6.5'

@@ -1,0 +1,16 @@
+FROM ubuntu:24.04
+
+ARG LICENSE_KEY
+
+WORKDIR /opt/halon/hybrid-analyzer
+
+ADD hybrid-analyzer*.tgz /tmp/
+
+RUN cp -a /tmp/hybrid-analyzer*/. . && \
+    rm -rf /tmp/hybrid-analyzer*
+
+RUN cp config.ini.default config.ini
+
+RUN sed -i "s/^LicenseKey=.*/LicenseKey=$LICENSE_KEY/" config.ini
+
+CMD ["./hybrid-analyzer"]

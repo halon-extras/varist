@@ -1,0 +1,72 @@
+[
+    {
+        "name": "varist_hde",
+        "parameters": {
+            "required": [
+                {
+                    "name": "fp",
+                    "type": "File"
+                }
+            ],
+            "optional": [
+                {
+                    "name": "options",
+                    "type": "array"
+                }
+            ]
+        },
+        "returnType": "array",
+        "detail": "varist_hde(File $fp [, array $options]): array",
+        "value": "varist_hde($0)",
+        "documentation": "Scan a File pointer (fp) with the Varist Hybrid Detection Engine.",
+        "link": "[Full documentation](https://github.com/halon-extras/varist)"
+    },
+    {
+        "name": "varist_av",
+        "parameters": {
+            "required": [
+                {
+                    "name": "fp",
+                    "type": "File"
+                }
+            ],
+            "optional": [
+                {
+                    "name": "options",
+                    "type": "array"
+                }
+            ]
+        },
+        "returnType": "array",
+        "detail": "varist_av(File $fp [, array $options]): array",
+        "value": "varist_av($0)",
+        "documentation": "Scan a File pointer (fp) with the Varist Anti-Malware Service.",
+        "link": "[Full documentation](https://github.com/halon-extras/varist)"
+    },
+    {
+        "name": "varist_hde_risk_level",
+        "parameters": {
+            "required": [
+                {
+                    "name": "rating",
+                    "type": "number"
+                }
+            ],
+            "optional": [
+                {
+                    "name": "mediumThreshold",
+                    "type": "number"
+                },
+                {
+                    "name": "highThreshold",
+                    "type": "number"
+                }
+            ]
+        },
+        "returnType": "string",
+        "detail": "varist_hde_risk_level(number $rating [, number $mediumThreshold [, number $highThreshold]]): string",
+        "value": "varist_hde_risk_level($0)",
+        "documentation": "Get a risk level based on the report rating.",
+        "link": "[Full documentation](https://github.com/halon-extras/varist)"
+    }
+]

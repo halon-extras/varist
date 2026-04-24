@@ -1,0 +1,9 @@
+version: "6.5"
+servers: []
+transportgroups: []
+scripting:
+  files:
+    - id: varist
+      path: varist.hsl
+    - id: test_file.txt
+      path: .devcontainer/smtpd/sample_data/spam_stuff.eml

@@ -1,0 +1,5 @@
+# Archive files
+*.tgz
+
+.DS_Store
+license.key
