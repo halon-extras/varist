@@ -71,7 +71,7 @@ The following options are available in the **options** array
 
 #### Returns
 
-An associative array, with a `result` proptery containing a string value representing the result of the scanning. For example `CLEAN`, `INFECTED` or `ERROR`. `detections` a property containing some more information on what was found when scanning the input. An `error` property is set if any error occurs containing the error message.
+An associative array, with a `result` property containing a string value representing the result of the scanning. For example `CLEAN`, `INFECTED` or `ERROR`. `detections` a property containing some more information on what was found when scanning the input. An `error` property is set if any error occurs containing the error message.
 ```
 import { varist_av } from "varist";
 

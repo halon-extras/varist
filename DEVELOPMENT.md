@@ -2,7 +2,7 @@
 
 ### Configuration
 
-Set your license keys as environment variables to automatically popluate the config.ini when starting the devcontainer
+Set your license keys as environment variables to automatically populate the config.ini when starting the devcontainer
 ```
 export HALON_VARIST_LICENSE_KEY_HDE=
 export HALON_VARIST_LICENSE_KEY_AV=
